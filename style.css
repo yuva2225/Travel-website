@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bungee+Tint&display=swap');
+body{
+    margin:0;
+    font-family: "Baskervville", serif;
+}
+.header{
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.icon{
+    height:20px;
+    width:20px;
+}
+.icon_area{
+    margin-left:10px;
+    display: flex;
+    align-items:center;
+    gap:10px;
+}
+.icon_name{
+    font-weight:bolder;
+}
+.menu_area{
+    margin-right:10px;
+}
+li{
+    padding:5px;
+    border-radius:2px;
+    transition:transform 0.5s,background-color 0.5s;
+}
+li:hover{
+    transform:scale(1.1);
+    background-color:aliceblue;
+    border-bottom:2px solid black;
+}
+p.con{
+    font-weight:bold;
+}
+.main_content{
+    background-image: url('images/img13.jpg');
+    height:500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.mainheading{
+    font-family :"Bungee Tint", serif;
+}
+.service{
+    text-align:center;
+    background-color: lightblue;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin-top:20px;
+    justify-content:space-evenly;
+}
+.card1,.card2,.card3,.cardimg1,.cardimg2,.cardimg3{
+    max-width:300px;
+    border:1px solid black;
+    text-align:center;
+    border-radius:5px;
+}
+.aboutus{
+    padding-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    background-color:aliceblue;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+.aboutimg{
+    max-width:400px;
+}
+.about{
+    text-align: center;
+    background-color:lightblue;
+}
+.sidetext{
+    max-width:500px;
+    text-align:justify;
+}
+.g1,.g2,.g3,.g4{
+    transition:transform 1s;
+}
+.g1:hover,.g2:hover,.g3:hover,.g4:hover{
+    transform:scale(1.1);
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin-top:20px;
+    justify-content:space-evenly;
+    background-color: aliceblue;
+}
+.g1,.g2,.g3{
+    max-width:300px;
+}
+.g4{
+    width:300px;
+}
+.gall{
+    text-align: center;
+    background-color: lightblue;
+    margin-top:20px;
+}
+.fotter{
+    text-align:center;
+    background-color:rgb(54,28,28);
+    color:white;
+    padding:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:20px;
+
+}
+@media only screen and(max-width:700px){
+    .gallery{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+    .sidetext{
+        padding:10px;
+    }
+    .card1,.card2,.card3{
+        margin-bottom:10px;
+    }
+    .menu_area{
+        display:none;
+    }
+}
