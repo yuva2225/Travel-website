@@ -1,15 +1,25 @@
-# Travel frontend website
-Author = Yuva kishore
+# Super Fast Travels
 
-Licence = The above information is public for all
+Super Fast Travels is a modern and responsive travel agency website built using HTML and CSS. This webpage is designed to attract new customers by showcasing the company's services, gallery. The elegant and user-friendly interface ensures a seamless experience for potential travelers.
 
-**Project Description**
-This is a frontend website built using HTML and CSS.
+## Features
+Eye-catching homepage with a professional travel theme
 
-This is a webpage of a flight travell company called superfasttravells.
+Services section showcasing travel packages, tour guides, and transportation options
 
-The main aim of this webpage is to show the services and trips the comapany is offering to its customers.
+Responsive design for smooth browsing on all devices
 
-Its a user friendly webpage very simple to handle.
+Contact section for customer inquiries and bookings
 
-source of website:https://superfasttravels.netlify.app/
+CSS animations to enhance the user experience
+
+## Technologies Used
+HTML – For structuring the website pages
+
+CSS – For styling and layout design
+
+## Project Website
+https://superfasttravels.netlify.app/
+
+## Screenshots
+![pic2](https://github.com/user-attachments/assets/cda8b4b2-3f96-48ea-be02-b602344b2dc1)
